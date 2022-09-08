@@ -9,7 +9,6 @@ Frontend application
 Backend user service
 Backend feed service
 Reverse Proxy
-Travis CI Screenshot can be found here
 
 Getting Started
 
