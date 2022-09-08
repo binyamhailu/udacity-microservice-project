@@ -66,8 +66,8 @@ Do the same for the rest ensuring the secret files are applied first then the ba
 
 # Start the reverseproxy service
 
-`kubectl expose deployment frontend --type=LoadBalancer --name=publicfrontend`
-`kubectl expose deployment reverseproxy --type=LoadBalancer --name=reverseproxy`
+* `kubectl expose deployment frontend --type=LoadBalancer --name=publicfrontend`
+* `kubectl expose deployment reverseproxy --type=LoadBalancer --name=reverseproxy`
 
 
 
