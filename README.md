@@ -23,19 +23,19 @@ Update the following configuration files
 
 Update your .profile or .bash_profile with the values for the following environment variables
 
-POSTGRESS_USERNAME
-POSTGRESS_PASSWORD
-POSTGRESS_DB
-POSTGRESS_HOST
+* POSTGRESS_USERNAME
+* POSTGRESS_PASSWORD
+* POSTGRESS_DB
+* POSTGRESS_HOST
 
-URL=http://localhost:8100
+* URL=http://localhost:8100
 
-AWS_REGION
-AWS_PROFILE
-AWS_BUCKET
-JWT_SECRET
-AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY
+* AWS_REGION
+* AWS_PROFILE
+* AWS_BUCKET
+* JWT_SECRET
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
 
 Running the application
 
