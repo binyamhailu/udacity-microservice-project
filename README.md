@@ -45,7 +45,7 @@ Install the dependencies for each project npm install
 Using docker
 
 
-#Build the docker images
+# Build the docker images
 `docker-compose -f docker-compose-build.yaml build --parallel`
 
 Run the container
@@ -55,7 +55,7 @@ Access the frontend in the browser with url `http://localhost:8100`
 
 Access the API via postman using `http://localhost:8080/api/v0`
 
-#Using kubernetes
+# Using kubernetes
 
 Apply each .yaml configuration file in the deployment folder
 
@@ -64,14 +64,14 @@ Apply each .yaml configuration file in the deployment folder
 
 Do the same for the rest ensuring the secret files are applied first then the backend and front end service and deployments followed by the reverse proxy service and deployment files
 
-Start the reverseproxy service
+# Start the reverseproxy service
 
 `kubectl expose deployment frontend --type=LoadBalancer --name=publicfrontend`
 `kubectl expose deployment reverseproxy --type=LoadBalancer --name=reverseproxy`
 
 
 
-Scaling the application
+# Scaling the application
 
 Scaling the app up/down can be done using
 
